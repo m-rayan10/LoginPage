@@ -1,0 +1,103 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(pic16.jpg);
+    background-size: cover;
+    background-position: absolute;
+}
+
+.signup{
+	width: 350px;
+	box-shadow: 0 0 3px 0 rgba(0,0,0.3);
+	background: aliceblue;
+	border-radius: 20px;
+	padding: 20px;
+	margin: 8% auto 0;
+	text-align: center;
+}
+.signup h1{
+	color: royalblue;
+	margin-bottom: 30px;
+}
+.input-box{
+	border-radius: 20px;
+	padding: 10px;
+	margin:10px 0;
+	width: 90%;
+	border:1px solid darkslategrey;
+	outline: none;
+}
+button{
+	width: 100%;
+	padding: 10px;
+	color: #fff;
+	border-radius: 20px;
+	margin:10px 0;
+	font-size: 15px;
+	border: 10px;
+	cursor: pointer;
+	outline: none;
+
+}
+.signup_b{
+	background-color: royalblue;
+}
+
+.social_b{
+	background-color: dodgerblue;
+}
+.socialg_b{
+	background-color: deepskyblue;
+}
+.socialt_b{
+	background-color: skyblue;
+}
+
+hr{
+	margin-top: 20px;
+	width: 70%;
+}
+
+.or{
+	color: dimgrey;
+	background-color: aliceblue;
+	width: 40px;
+	margin: -19px auto 10px;
+}
+.signup a{
+	text-decoration: none;
+  	border-radius: 20px;
+	padding: 10px;
+	margin:20px 0;
+	width: 150%;
+	outline: none;
+	color: royalblue;
+}
+
+.signup a:hover
+{
+    background-color: royalblue;
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+.signup input[type="submit"]
+{
+   width: 100%;
+	padding: 10px;
+	color: #fff;
+	background-color: royalblue;
+	border-radius: 20px;
+	margin:10px 0;
+	font-size: 15px;
+	border: 10px;
+	cursor: pointer;
+	outline: none;
+}
+.signup input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: skyblue;
+    color: #000;
+    transition: 0.5s ease;
